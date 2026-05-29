@@ -1,6 +1,4 @@
-// =========================
-// MOBILE MENU
-// =========================
+
 
 const menuBtn = document.querySelector(".menu-btn");
 const navLinks = document.querySelector(".nav-links");
@@ -11,9 +9,7 @@ menuBtn.addEventListener("click", () => {
 
 });
 
-// =========================
-// NAVBAR SCROLL EFFECT
-// =========================
+
 
 const navbar = document.querySelector(".navbar");
 
@@ -33,9 +29,7 @@ window.addEventListener("scroll", () => {
 
 });
 
-// =========================
-// ACTIVE NAV LINK
-// =========================
+
 
 const sections = document.querySelectorAll("section");
 const navItems = document.querySelectorAll(".nav-links a");
@@ -74,9 +68,7 @@ window.addEventListener("scroll", () => {
 
 });
 
-// =========================
-// SCROLL REVEAL ANIMATION
-// =========================
+
 
 ScrollReveal().reveal(
 
@@ -147,9 +139,7 @@ ScrollReveal().reveal(
 
 );
 
-// =========================
-// COUNTER ANIMATION
-// =========================
+
 
 const counters = document.querySelectorAll(".impact-card h1");
 
@@ -214,9 +204,7 @@ counters.forEach(counter => {
 
 });
 
-// =========================
-// GALLERY HOVER EFFECT
-// =========================
+
 
 const galleryItems =
 document.querySelectorAll(".gallery-item");
@@ -239,9 +227,7 @@ galleryItems.forEach(item => {
 
 });
 
-// =========================
-// SMOOTH SCROLL
-// =========================
+
 
 document
 .querySelectorAll('a[href^="#"]')
@@ -267,9 +253,7 @@ document
 
 });
 
-// =========================
-// TYPEWRITER EFFECT HERO
-// =========================
+
 
 const title = document.querySelector(".hero-text h1");
 
@@ -300,9 +284,7 @@ window.addEventListener("load", () => {
 
 });
 
-// =========================
-// PARALLAX HERO
-// =========================
+
 
 window.addEventListener("scroll", () => {
 
@@ -315,9 +297,7 @@ window.addEventListener("scroll", () => {
 
 });
 
-// =========================
-// LOADING ANIMATION
-// =========================
+
 
 window.addEventListener("load", () => {
 
